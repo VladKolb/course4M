@@ -1,0 +1,70 @@
+body {
+   font-family: 'Arial', sans-serif;
+   background-color: #f4f4f4;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+}
+form {
+   background-color: white;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   width: 300px;
+}
+h2 {
+   text-align: center;
+   font-family: 'Helvetica', sans-serif;
+   color: #333;
+}
+form div {
+   margin-bottom: 15px;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+   width: 95%;
+   padding: 10px;
+   margin-top: 5px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   font-size: 16px;
+}
+input[type="submit"], button {
+   width: 100%;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+   color: white;
+   background-color: #5cb85c;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover, button:hover {
+   background-color: #4cae4c;
+}
+.buttons {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 15px;
+}
+.buttons button {
+   background-color: #337ab7;
+   padding: 10px;
+   margin-left: 5px;
+   transition: background-color 0.3s ease;
+}
+.buttons button:hover {
+   background-color: #286090;
+}
+.error-message {
+   color: red;
+   text-align: center;
+   margin-top: 15px;
+   opacity: 1;
+   transition: opacity 1s ease-out;
+}
+.hidden {
+   opacity: 0;
+}
